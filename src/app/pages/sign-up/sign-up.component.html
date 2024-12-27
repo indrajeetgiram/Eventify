@@ -1,0 +1,27 @@
+<body id="signup-page">
+    <div class="form">
+        <div class="form-title">Create a new account</div>
+        <div class="input-container">
+            <input type="number" id="userId" [(ngModel)]="signupObj.UserId" placeholder="User ID">
+        </div>
+        <div class="input-container">
+            <input type="text" id="name" [(ngModel)]="signupObj.Name" placeholder="Name">
+        </div>
+        <div class="input-container">
+            <input type="email" id="email" [(ngModel)]="signupObj.Email" placeholder="Email">
+        </div>
+        <div class="input-container">
+            <input type="text" id="contactNo" [(ngModel)]="signupObj.ContactNo" placeholder="Contact Number">
+        </div>
+        <div class="input-container">
+            <input type="password" id="password" [(ngModel)]="signupObj.Password" placeholder="Password">
+        </div>
+        <div class="input-container">
+            <input type="text" id="role" [(ngModel)]="signupObj.Role" placeholder="Role">
+        </div>
+        <button class="submit" (click)="onSignup()">Sign Up</button>
+        <div class="signup-link">
+            Already have an account? <a routerLink='/Login'>Login</a>
+        </div>
+    </div>
+</body>

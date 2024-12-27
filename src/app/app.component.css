@@ -1,0 +1,13 @@
+.navbar .login {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar .login a {
+    margin-right: 20px; 
+  }
+  
+  .navbar .login a:last-child {
+    margin-right: 0; 
+  }
+  
